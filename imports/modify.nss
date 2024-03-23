@@ -34,9 +34,11 @@ $hidden_items=[
 	"powershell 7",
 	"scan with microsoft defender",
 	"open with winrar",
-	"translate with deepl"
+	"translate with deepl",
+	"toolbars"
 ]
 modify(
+	type="*"
 	where=str.equals(this.name, hidden_items)
 	vis=vis.remove
 )
@@ -75,7 +77,9 @@ modify(
 		id.show_windows_ink_workspace_button,
 		id.show_touch_keyboard_button,
 		id.personalize,
-		id.display_settings
+		id.display_settings,
+		id.search,
+		id.news_and_interests
 	)
 	menu=title.more_options
 )

@@ -27,7 +27,6 @@ menu(mode="multiple" title="WinRAR" image=\uE1A4)
 
 item(mode=mode.multiple title='App Volume' image=\uE0F3 cmd='ms-settings:apps-volume')
 
-
 menu(mode="multiple" title=title.more_options pos=-1 image=icon.more_options)
 {
 }

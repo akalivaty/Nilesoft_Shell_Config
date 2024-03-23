@@ -30,7 +30,9 @@ menu(where=@(this.count == 0) type='taskbar' image=icon.settings expanded=true)
 	// item(title=title.task_manager sep=both image=icon.task_manager cmd='taskmgr.exe')
 	// item(title=title.taskbar_Settings sep=both image=inherit cmd='ms-settings:taskbar')
 	// item(vis=key.shift() title=title.exit_explorer cmd=command.restart_explorer)
+	item(title='App Volume' image=\uE0F3 cmd='ms-settings:apps-volume' sep=both)
 }
+
 menu(type='taskbar' title=title.more_options image=icon.more_options pos=bottom)
 {
 }
